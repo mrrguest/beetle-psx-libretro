@@ -49,7 +49,7 @@ bool doCleanFrame = false;
 // Sets how often (in number of output frames/retro_run invocations)
 // the internal framerace counter should be updated if
 // display_internal_framerate is true.
-#define INTERNAL_FPS_SAMPLE_PERIOD 32
+#define INTERNAL_FPS_SAMPLE_PERIOD 3
 
 #define MAX_PLAYERS 8
 #define MAX_BUTTONS 16
